@@ -95,10 +95,12 @@ sitemap:
 
 google_analytics: UA-106895682-1
 
+baidushare: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/duomu/duomu.github.io.git
+  repo: git@github.com:duomu/duomu.github.io.git
   branch: master
 
