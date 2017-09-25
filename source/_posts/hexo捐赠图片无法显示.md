@@ -6,5 +6,3 @@ categories: Hexo
 ---
 
 查看github上的图片名是否正确、规范，将大写后缀改成小写后缀。
-
-hi~~~~
