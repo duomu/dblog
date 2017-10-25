@@ -141,7 +141,7 @@ redis默认没有配置认证密码，如果配置了认证密码requirepass，�
 	    private static final Logger logger = LoggerFactory.getLogger(RedisMainTest.class);
 	
 	    public static void main(String[] args) {
-	        Jedis jedis = new Jedis("192.168.128.157", 6379);
+	        Jedis jedis = new Jedis("192.x.x.x", 6379);
 	        jedis.auth("123456");
 	        jedis.set("name", "duomu");
 	        String name = jedis.get("name");
